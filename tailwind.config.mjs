@@ -11,7 +11,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "amazon-ember": ['"Amazon Ember"', "sans-serif"],
+      },
     },
   },
   plugins: [],
+  darkMode: 'class',
 };

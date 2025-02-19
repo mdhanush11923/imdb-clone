@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('/fonts/AmazonEmber_rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('/fonts/AmazonEmber_Bd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('/fonts/AmazonEmber_He.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('/fonts/AmazonEmber_HeIt.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Amazon Ember', sans-serif;
 }

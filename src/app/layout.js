@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "./Providers";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "IMDB clone",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className={`antialiased`}>
         <Providers>
           <Header />
+          <NavBar />
           {children}
         </Providers>
       </body>

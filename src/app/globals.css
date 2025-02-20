@@ -4,8 +4,15 @@
 
 @font-face {
   font-family: 'Amazon Ember';
-  src: url('/fonts/AmazonEmber_rg.ttf') format('truetype');
+  src: url('/fonts/AmazonEmber_Rg.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('/fonts/Amazon-Ember-Medium.ttf') format('truetype');
+  font-weight: 500;
   font-style: normal;
 }
 

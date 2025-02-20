@@ -19,10 +19,9 @@ export default function Providers({children, ...props}) {
       attribute="class"
       defaultTheme="system"
       enableSystem
-      disableTransitionOnChange
       {...props}
     >
-      <div className="dark:text-gray-200 dark:bg-gray-700 text-gray-700 transition-colors duration-500 min-h-screen select-none">
+      <div className="dark:text-gray-200 dark:bg-gray-700 text-gray-700 transition-colors duration-300 min-h-screen select-none">
         {children}
       </div>
     </ThemeProvider>

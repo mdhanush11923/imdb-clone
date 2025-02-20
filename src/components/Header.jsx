@@ -24,6 +24,9 @@ export default function Header() {
           <span className="text-2xl text-black bg-[#F5C518] py-1 px-2 mr-1 tracking-tighter rounded-md font-extrabold ">
             IMDb
           </span>
+          {/* <span className="text-2xl text-black bg-[#F5C518] py-1 px-2 mr-1 tracking-tighter rounded-md font-extrabold ">
+            <img src="/images/IMDb_Logo_Rectangle_Gold.png"></img>
+          </span> */}
           <span className="text-xl hidden sm:inline">Clone</span>
         </Link>
       </div>
